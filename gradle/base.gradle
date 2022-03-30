@@ -24,22 +24,22 @@ android {
         // but continue the build even when errors are found:
         abortOnError false
     }
-    libraryVariants.all { variant ->
-        variant.outputs.all {
-//            outputFileName = "${variant.name}-${variant.versionName}.apk"
-            outputFileName = "${project.name}.aar"
-        }
-    }
+//    libraryVariants.all { variant ->
+//        variant.outputs.all {
+////            outputFileName = "${variant.name}-${variant.versionName}.apk"
+//            outputFileName = "${project.name}.aar"
+//        }
+//    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-//    kotlinOptions {
-//        jvmTarget = '11'
+    kotlinOptions {
+        jvmTarget = '11'
 //        useIR = true
-//    }
+    }
 
 //    buildTypes {
 //        release {
@@ -58,12 +58,12 @@ android {
         // viewBinding = true
     }
 }
-dependencies {
-//    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
-    implementation librarys.design
-    implementation librarys.appcompatV7
-    implementation librarys.supportannotations
-    implementation librarys.recyclerviewv7
-    implementation librarys.swiperefreshlayout
-}
+//dependencies {
+////    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
+//    implementation librarys.design
+//    implementation librarys.appcompatV7
+//    implementation librarys.supportannotations
+//    implementation librarys.recyclerviewv7
+//    implementation librarys.swiperefreshlayout
+//}
