@@ -41,6 +41,8 @@ dependencies {
     api librarys.rxJava2
     api librarys.rxandroid2
     api librarys.adapterrxjava2
+    //
+    api 'org.tensorflow:tensorflow-lite:1.14.0'
     // agentlib
     api 'us.feras.mdv:markdownview:1.1.0'
     api 'com.lcodecorex:tkrefreshlayout:1.0.7'
