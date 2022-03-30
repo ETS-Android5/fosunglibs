@@ -10,6 +10,7 @@ android {
 }
 dependencies {
 //    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation project(':libutils')
     implementation librarys.blankj
     implementation librarys.retrofit
     implementation librarys.retrofitconverters
