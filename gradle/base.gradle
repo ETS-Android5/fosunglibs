@@ -56,12 +56,12 @@ android {
         // viewBinding = true
     }
 }
-//dependencies {
-////    implementation fileTree(include: ['*.jar'], dir: 'libs')
+dependencies {
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
 //    implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
-//    implementation librarys.design
-//    implementation librarys.appcompatV7
-//    implementation librarys.supportannotations
-//    implementation librarys.recyclerviewv7
-//    implementation librarys.swiperefreshlayout
-//}
+    implementation librarys.design
+    implementation librarys.appcompatV7
+    implementation librarys.supportannotations
+    implementation librarys.recyclerviewv7
+    implementation librarys.swiperefreshlayout
+}
