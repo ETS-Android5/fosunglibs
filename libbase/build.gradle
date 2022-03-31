@@ -19,7 +19,7 @@ android {
 //    }
 }
 dependencies {
-    implementation project(':libutils')
-
+//    implementation project(':libutils')
+    implementation 'com.github.geeklx:fosunglibs:1.4.6'
 
 }

@@ -2,6 +2,6 @@ apply from: "${rootDir.path}/gradle/publish.gradle"
 apply from: "${rootDir.path}/gradle/base.gradle"
 def librarys = rootProject.ext.dependencies //
 dependencies {
-    implementation project(':libutils')
-
+//    implementation project(':libutils')
+    implementation 'com.github.geeklx:fosunglibs:1.4.6'
 }
