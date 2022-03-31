@@ -1,7 +1,5 @@
 package com.haier.cellarette.baselibrary.expandabletextview;
 
-import com.ctetin.expandabletextviewlibrary.app.StatusType;
-import com.ctetin.expandabletextviewlibrary.model.ExpandableStatusFix;
 
 /**
  * @date: on 2018/9/20

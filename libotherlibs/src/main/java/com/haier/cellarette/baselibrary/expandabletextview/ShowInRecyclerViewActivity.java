@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ctetin.expandabletextviewlibrary.ExpandableTextView;
+import com.haier.cellarette.baselibrary.expandabletextview.ExpandableTextView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.haier.cellarette.baselibrary.R;
 

@@ -23,9 +23,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.text.util.LinkifyCompat;
 
-import com.ctetin.expandabletextviewlibrary.ExpandableTextView;
-import com.ctetin.expandabletextviewlibrary.app.LinkType;
-import com.ctetin.expandabletextviewlibrary.app.StatusType;
 import com.haier.cellarette.baselibrary.R;
 
 

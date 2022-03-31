@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.ctetin.expandabletextviewlibrary.ExpandableTextView
+    <com.haier.cellarette.baselibrary.expandabletextview.ExpandableTextView
         android:id="@+id/tv_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

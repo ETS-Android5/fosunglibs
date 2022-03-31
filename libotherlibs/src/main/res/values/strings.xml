@@ -171,5 +171,17 @@
     <string name="navigation_drawer_open" translatable="false">打开</string>
     <string name="navigation_drawer_close" translatable="false">关闭</string>
 
+    <string name="threadsleep" translatable="false">Thread sleep</string>
+    <string name="infiniteloop" translatable="false">Infinite loop</string>
+    <string name="deadlock" translatable="false">Dead lock</string>
+    <string name="min_anr_duration" translatable="false">Min ANR duration:</string>
+    <string name="report_mode" translatable="false">Report mode:</string>
+    <string name="filter_report" translatable="false">Filter report:</string>
+    <string name="behaviour" translatable="false">Behaviour:</string>
+
+    <string name="social_contract" translatable="false">收起</string>
+    <string name="social_expend" translatable="false">展开</string>
+    <string name="social_text_target" translatable="false">网页链接</string>
+
 
 </resources>

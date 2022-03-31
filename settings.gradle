@@ -47,9 +47,9 @@ include ':libsCenterNew',
 
 // commonlibs
 //include ':libgeek'
-//include ':libotherlibs'
-//include ':libbase'
-//include ':libutils'
+include ':libotherlibs'
+include ':libbase'
+include ':libutils'
 include ':libocr'
 include ':libyanzheng'
 include ':libdkplayer'
