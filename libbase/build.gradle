@@ -54,7 +54,7 @@ dependencies {
     api 'com.tencent.bugly:nativecrashreport:latest.release'
     //其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号，例如3.0
     // https://github.com/Meituan-Dianping/walle
-    api 'com.meituan.android.walle:library:1.1.7'
+//    api 'com.meituan.android.walle:library:1.1.7'
     // viewpager2 轮播图 https://github.com/youth5201314/banner
     api 'io.github.youth5201314:banner:2.2.2'
     //
@@ -62,11 +62,11 @@ dependencies {
     // 注意：分包之后不会有默认的Header和Footer需要手动添加！还是原来的三种方法！
     api 'com.scwang.smart:refresh-layout-kernel:2.0.3'      //核心必须依赖
     api 'com.scwang.smart:refresh-header-classics:2.0.3'    //经典刷新头
-    api 'com.scwang.smart:refresh-header-radar:2.0.3'       //雷达刷新头
-    api 'com.scwang.smart:refresh-header-falsify:2.0.3'     //虚拟刷新头
+//    api 'com.scwang.smart:refresh-header-radar:2.0.3'       //雷达刷新头
+//    api 'com.scwang.smart:refresh-header-falsify:2.0.3'     //虚拟刷新头
     api 'com.scwang.smart:refresh-header-material:2.0.3'    //谷歌刷新头
-    api 'com.scwang.smart:refresh-header-two-level:2.0.3'   //二级刷新头
-    api 'com.scwang.smart:refresh-footer-ball:2.0.3'        //球脉冲加载
+//    api 'com.scwang.smart:refresh-header-two-level:2.0.3'   //二级刷新头
+//    api 'com.scwang.smart:refresh-footer-ball:2.0.3'        //球脉冲加载
     api 'com.scwang.smart:refresh-footer-classics:2.0.3'    //经典加载
     // https://github.com/KunMinX/Linkage-RecyclerView
     api 'com.kunminx.linkage:linkage-recyclerview:2.4.0'
