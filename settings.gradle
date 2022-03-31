@@ -48,7 +48,7 @@ include ':libsCenterNew',
 // commonlibs
 //include ':libgeek'
 include ':libotherlibs'
-include ':libbase'
+//include ':libbase'
 include ':libutils'
 include ':libocr'
 include ':libyanzheng'
